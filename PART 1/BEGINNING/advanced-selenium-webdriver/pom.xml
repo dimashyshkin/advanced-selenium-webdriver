@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.herokuapp.test</groupId>
-	<artifactId>selenium-for-beginners</artifactId>
+	<artifactId>advanced-selenium-webdriver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Selenium for Beginners</name>
+	<name>Advanced Selenium Webdriver</name>
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -20,7 +20,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>3.11.0</version>
+			<version>3.14.0</version>
 		</dependency>
 
 
@@ -30,21 +30,22 @@
 	<build>
 
 		<plugins>
-
+			<!-- https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.7.0</version>
+				<version>3.8.0</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>10</source>
+					<target>10</target>
 				</configuration>
 			</plugin>
 
+			<!-- https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.21.0</version>
+				<version>2.22.0</version>
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/TestSuites/testng.xml</suiteXmlFile>
