@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-06T15:26:48Z" name="UploadTestSuite" finished-at="2018-10-06T15:27:21Z" duration-ms="33364">
+    <groups>
+    </groups>
+    <test started-at="2018-10-06T15:26:48Z" name="UploadTests" finished-at="2018-10-06T15:27:21Z" duration-ms="33364">
+      <class name="com.herokuapp.theinternet.uploadtests.UploadTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:26:48Z" name="setUp" finished-at="2018-10-06T15:26:58Z" duration-ms="10260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@342726f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fileUploadTest(int, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:26:58Z" name="fileUploadTest" data-provider="files" finished-at="2018-10-06T15:27:00Z" duration-ms="2241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:27:00Z" name="tearDown" finished-at="2018-10-06T15:27:01Z" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:27:01Z" name="setUp" finished-at="2018-10-06T15:27:08Z" duration-ms="6917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@342726f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fileUploadTest(int, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:27:08Z" name="fileUploadTest" data-provider="files" finished-at="2018-10-06T15:27:10Z" duration-ms="2434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[logo.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:27:10Z" name="tearDown" finished-at="2018-10-06T15:27:11Z" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:27:11Z" name="setUp" finished-at="2018-10-06T15:27:18Z" duration-ms="6891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@342726f1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fileUploadTest(int, java.lang.String)[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:27:18Z" name="fileUploadTest" data-provider="files" finished-at="2018-10-06T15:27:20Z" duration-ms="2175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.uploadtests.UploadTests@7b02881e]" started-at="2018-10-06T15:27:20Z" name="tearDown" finished-at="2018-10-06T15:27:21Z" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.uploadtests.UploadTests -->
+    </test> <!-- UploadTests -->
+  </suite> <!-- UploadTestSuite -->
+</testng-results>

@@ -1,0 +1,15 @@
+2018/10/13-10:12:10.029 512 Reusing MANIFEST C:\Users\Dee\AppData\Local\Google\Chrome\User Data\Profile 6\Session Storage/MANIFEST-000001
+2018/10/13-10:12:10.030 512 Recovering log #61
+2018/10/13-10:12:10.058 512 Reusing old log C:\Users\Dee\AppData\Local\Google\Chrome\User Data\Profile 6\Session Storage/000061.log 
+2018/10/13-11:31:33.856 4600 Level-0 table #65: started
+2018/10/13-11:31:33.893 4600 Level-0 table #65: 23213 bytes OK
+2018/10/13-11:31:33.910 4600 Delete type=0 #61
+2018/10/13-11:31:33.910 4600 Compacting 4@0 + 1@1 files
+2018/10/13-11:31:33.960 4600 Generated table #66@0: 11 keys, 389 bytes
+2018/10/13-11:31:33.960 4600 Compacted 4@0 + 1@1 files => 389 bytes
+2018/10/13-11:31:33.977 4600 compacted to: files[ 0 1 0 0 0 0 0 ]
+2018/10/13-11:31:33.977 4600 Delete type=2 #54
+2018/10/13-11:31:33.978 4600 Delete type=2 #57
+2018/10/13-11:31:33.978 4600 Delete type=2 #59
+2018/10/13-11:31:33.978 4600 Delete type=2 #62
+2018/10/13-11:31:33.979 4600 Delete type=2 #65

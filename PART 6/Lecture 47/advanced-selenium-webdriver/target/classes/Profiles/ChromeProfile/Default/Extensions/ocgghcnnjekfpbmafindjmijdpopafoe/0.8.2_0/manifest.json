@@ -1,0 +1,41 @@
+{
+   "author": "Ranorex GmbH",
+   "background": {
+      "persistent": false,
+      "scripts": [ "scripts/background-bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/logo/rxselocity-xlarge-128x128.png",
+         "16": "images/logo/rxselocity-xsmall-16x16.png",
+         "32": "images/logo/rxselocity-small-32x32.png",
+         "48": "images/logo/rxselocity-medium-48x48.png",
+         "64": "images/logo/rxselocity-large-64x64.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "Ranorex Selocity"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "scripts/inject-bundle.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "devtools_page": "devtools/devtools.html",
+   "icons": {
+      "128": "images/logo/rxselocity-xlarge-128x128.png",
+      "16": "images/logo/rxselocity-xsmall-16x16.png",
+      "32": "images/logo/rxselocity-small-32x32.png",
+      "48": "images/logo/rxselocity-medium-48x48.png",
+      "64": "images/logo/rxselocity-large-64x64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmDa0d/wtmG1blG9V4nNE6KZ/hZhwtMHFLavrMplu9HYhqrT/5tPHiad9JIA3/qP3zuUgvA6fyuOI1IO0EJrnKxHSldq+r7XNF5HzTX4dmfbmdMVQBr0qB0R3PhFey3Z7bxh2+6//HiKoslLUdbUOC49gwPzv6XCqrL7PtTK45me252zgsN+qVR+ILow/6BHQoG4BkCp/XbowoHBPWZfvFl4ps3n1JzMfV/Wzrg/XXbBgdarNCStQjGfljv9aSEe6VI5D5d7S2fDOhcmoZfERoqy2hm6g9oUgjIpfEah7jQC3STzZZJgQmnY6h41Vn0tGbiybM+Jfl8/hgrT99Nf/ywIDAQAB",
+   "manifest_version": 2,
+   "name": "Ranorex Selocity",
+   "permissions": [ "\u003Call_urls>", "activeTab", "clipboardWrite", "contextMenus", "http://*/*", "https://*/*", "file://*/*", "notifications", "storage" ],
+   "short_name": "Selocity",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.8.2"
+}

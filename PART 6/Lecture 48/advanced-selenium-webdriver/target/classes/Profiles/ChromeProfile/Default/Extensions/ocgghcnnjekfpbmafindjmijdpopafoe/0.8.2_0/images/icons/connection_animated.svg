@@ -1,0 +1,9 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14 14" style="" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFA500;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<title>Icon - Connection</title>
+<path class="st0 YkLDiYrX_0" d="M13,5L1,5L5,1"></path>
+<path class="st0 YkLDiYrX_1" d="M1,9L13,9L9,13"></path>
+<style data-made-with="vivus-instant">.YkLDiYrX_0{stroke-dasharray:18 20;stroke-dashoffset:19;animation:YkLDiYrX_draw_0 2000ms ease-in 0ms infinite,YkLDiYrX_fade 2000ms linear 0ms infinite;}.YkLDiYrX_1{stroke-dasharray:18 20;stroke-dashoffset:19;animation:YkLDiYrX_draw_1 2000ms ease-in 0ms infinite,YkLDiYrX_fade 2000ms linear 0ms infinite;}@keyframes YkLDiYrX_draw{100%{stroke-dashoffset:0;}}@keyframes YkLDiYrX_fade{0%{stroke-opacity:1;}95%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes YkLDiYrX_draw_0{5%{stroke-dashoffset: 19}40%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes YkLDiYrX_draw_1{10%{stroke-dashoffset: 19}45%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>

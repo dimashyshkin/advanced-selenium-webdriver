@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-UploadTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">UploadTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-UploadTestSuite" class="navigator-link ">
+                    <span>C:\Users\Dee\eclipse-photon-workspace\advanced-selenium-webdriver\src\test\resources\TestSuites\SeparateTestSuites\UploadTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-UploadTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-UploadTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-UploadTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-UploadTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-UploadTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-UploadTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-UploadTestSuite" class="hide-methods passed suite-UploadTestSuite"> (hide)</a> <!-- hide-methods passed suite-UploadTestSuite -->
+                      <a href="#" panel-name="suite-UploadTestSuite" class="show-methods passed suite-UploadTestSuite"> (show)</a> <!-- show-methods passed suite-UploadTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-UploadTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadTestSuite" title="com.herokuapp.theinternet.uploadtests.UploadTests" class="method navigator-link" hash-for-method="fileUploadTest(2, logo.png)">fileUploadTest(2, logo.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadTestSuite" title="com.herokuapp.theinternet.uploadtests.UploadTests" class="method navigator-link" hash-for-method="fileUploadTest(1, index.html)">fileUploadTest(1, index.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadTestSuite" title="com.herokuapp.theinternet.uploadtests.UploadTests" class="method navigator-link" hash-for-method="fileUploadTest(3, text.txt)">fileUploadTest(3, text.txt)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-UploadTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UploadTestSuite" class="panel UploadTestSuite">
+          <div class="suite-UploadTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.herokuapp.theinternet.uploadtests.UploadTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadTest(2, logo.png)">
+                  </a> <!-- fileUploadTest(2, logo.png) -->
+                  <span class="method-name">fileUploadTest</span>
+                  <span class="parameters">(2, logo.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadTest(1, index.html)">
+                  </a> <!-- fileUploadTest(1, index.html) -->
+                  <span class="method-name">fileUploadTest</span>
+                  <span class="parameters">(1, index.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadTest(3, text.txt)">
+                  </a> <!-- fileUploadTest(3, text.txt) -->
+                  <span class="method-name">fileUploadTest</span>
+                  <span class="parameters">(3, text.txt)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UploadTestSuite-class-passed -->
+        </div> <!-- panel UploadTestSuite -->
+        <div panel-name="test-xml-UploadTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dee\eclipse-photon-workspace\advanced-selenium-webdriver\src\test\resources\TestSuites\SeparateTestSuites\UploadTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;UploadTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UploadTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.herokuapp.theinternet.uploadtests.UploadTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadTests --&gt;
+&lt;/suite&gt; &lt;!-- UploadTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UploadTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UploadTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UploadTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UploadTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UploadTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UploadTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UploadTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UploadTestSuite');
+function tableData_UploadTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fileUploadTest')
+data.setCell(0, 2, 'com.herokuapp.theinternet.uploadtests.UploadTests')
+data.setCell(0, 3, 2434);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fileUploadTest')
+data.setCell(1, 2, 'com.herokuapp.theinternet.uploadtests.UploadTests')
+data.setCell(1, 3, 2241);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fileUploadTest')
+data.setCell(2, 2, 'com.herokuapp.theinternet.uploadtests.UploadTests')
+data.setCell(2, 3, 2175);
+window.suiteTableData['UploadTestSuite']= { tableData: data, tableDiv: 'times-div-UploadTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-UploadTestSuite">
+              </div> <!-- times-div-UploadTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UploadTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UploadTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UploadTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UploadTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.herokuapp.theinternet.uploadtests.UploadTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@342726f1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fileUploadTest(1, index.html)</span>
+                <span class="method-start">10260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@342726f1)</span>
+                <span class="method-start">13318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fileUploadTest(2, logo.png)</span>
+                <span class="method-start">20235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22671 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, org.testng.TestRunner@342726f1)</span>
+                <span class="method-start">23486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fileUploadTest(3, text.txt)</span>
+                <span class="method-start">30377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32554 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

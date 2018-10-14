@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HorizontalSliderTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HorizontalSliderTests-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.horizontalslidertests.HorizontalSliderTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="sliderTest"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.horizontalslidertests.HorizontalSliderTests -->
+    </classes>
+  </test> <!-- HorizontalSliderTests-CH(failed) -->
+  <test thread-count="5" name="HorizontalSliderTests-FF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.horizontalslidertests.HorizontalSliderTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="sliderTest"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.horizontalslidertests.HorizontalSliderTests -->
+    </classes>
+  </test> <!-- HorizontalSliderTests-FF(failed) -->
+</suite> <!-- Failed suite [HorizontalSliderTestSuite] -->

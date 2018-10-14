@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [NegativeLogInTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="NegativeLogInTest-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="negativeLogInTest"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.loginpagetests.NegativeLogInTests -->
+    </classes>
+  </test> <!-- NegativeLogInTest-CH(failed) -->
+</suite> <!-- Failed suite [NegativeLogInTestSuite] -->

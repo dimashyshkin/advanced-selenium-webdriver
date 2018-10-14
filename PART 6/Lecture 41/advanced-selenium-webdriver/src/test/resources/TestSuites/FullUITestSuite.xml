@@ -1,0 +1,90 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FullUITestSuite" verbose="1" parallel="tests" thread-count="4">
+
+	<test name="PositiveLogInTest-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests" />
+		</classes>
+	</test>
+
+	<test name="NegativeUsernameTest-CH">
+		<parameter name="username" value="incorrectUsername"></parameter>
+		<parameter name="password" value="SuperSecretPassword!"></parameter>
+		<parameter name="expectedMessage" value="Your username is invalid!"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="NegativePasswordTest-FF">
+		<parameter name="username" value="tomsmith"></parameter>
+		<parameter name="password" value="incorrectPassword"></parameter>
+		<parameter name="expectedMessage" value="Your password is invalid!"></parameter>
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="CheckboxesTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests" />
+		</classes>
+	</test>
+	
+	<test name="DropdownTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.dropdowntests.DropdownTests" />
+		</classes>
+	</test>
+	
+	<test name="AlertsTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.alertstests.AlertsTests" />
+		</classes>
+	</test>
+	
+	<test name="WindowsTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.windowstests.WindowsTests" />
+		</classes>
+	</test>
+	
+	<test name="EditorTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.editortests.EditorTests" />
+		</classes>
+	</test>
+	
+	<test name="KeyPressesTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.keypressestests.KeyPressesTests" />
+		</classes>
+	</test>
+	
+	<test name="UploadTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.uploadtests.UploadTests" />
+		</classes>
+	</test>
+	
+	<test name="DragAndDropTests-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.draganddroptests.DragAndDropTests" />
+		</classes>
+	</test>
+	
+	<test name="DragAndDropTests-FF">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.herokuapp.theinternet.draganddroptests.DragAndDropTests" />
+		</classes>
+	</test>
+
+</suite>

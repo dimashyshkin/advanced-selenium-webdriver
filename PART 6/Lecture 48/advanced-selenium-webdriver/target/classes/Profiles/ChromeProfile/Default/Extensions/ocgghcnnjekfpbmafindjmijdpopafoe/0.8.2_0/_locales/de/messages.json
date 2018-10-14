@@ -1,0 +1,5 @@
+{
+   "appDesc": {
+      "message": "Generiere robuste XPath, link text, RanoreXPath sowie CSS Selektoren für sofortige Verwendung in Selenium Tests."
+   }
+}

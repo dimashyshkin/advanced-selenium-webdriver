@@ -1,0 +1,184 @@
+{
+   "checksum": "090564f0f4700a9c2a3caccc3ed2c576",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13161900472555931",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13181945950145326"
+            },
+            "name": "Selenium",
+            "sync_transaction_version": "313",
+            "type": "url",
+            "url": "http://www.seleniumhq.org/"
+         }, {
+            "children": [ {
+               "date_added": "13161900727192535",
+               "id": "6",
+               "name": "Bootcamp",
+               "sync_transaction_version": "120",
+               "type": "url",
+               "url": "http://info.saucelabs.com/rs/saucelabsinc/images/Bootcamp-Selenium.pdf"
+            }, {
+               "date_added": "13161902381585326",
+               "id": "8",
+               "name": "Selenium Framework | What is Selenium",
+               "sync_transaction_version": "124",
+               "type": "url",
+               "url": "http://www.seleniumframework.com/introduction/what-is-selenium/"
+            }, {
+               "date_added": "13161902438585395",
+               "id": "9",
+               "name": "Selenium Framework | Demo Sites",
+               "sync_transaction_version": "123",
+               "type": "url",
+               "url": "http://www.seleniumframework.com/demo-sites/"
+            }, {
+               "date_added": "13161905022724581",
+               "id": "20",
+               "name": "OBS Studio Tutorial: Best Recording Settings | OBS Multiplatform Guide - YouTube",
+               "sync_transaction_version": "133",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?time_continue=284&v=YKzcPWFxNZw"
+            }, {
+               "date_added": "13162078576058329",
+               "id": "22",
+               "name": "How To Make Selenium WebDriver Scripts Faster | SELENIUM Automation in JAVA",
+               "sync_transaction_version": "132",
+               "type": "url",
+               "url": "https://seleniumjava.com/2015/12/12/how-to-make-selenium-webdriver-scripts-faster/"
+            } ],
+            "date_added": "13161902246833770",
+            "date_modified": "13171934915800246",
+            "id": "7",
+            "name": "Info",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13161902749736503",
+               "id": "14",
+               "meta_info": {
+                  "last_visited_desktop": "13182356580831767"
+               },
+               "name": "Best Test Automation Websites to Practice Using Selenium Webdriver",
+               "sync_transaction_version": "350",
+               "type": "url",
+               "url": "https://www.ultimateqa.com/best-test-automation-websites-to-practice-using-selenium-webdriver/"
+            }, {
+               "date_added": "13161903166205021",
+               "id": "18",
+               "meta_info": {
+                  "last_visited_desktop": "13182308662664802"
+               },
+               "name": "7 Websites to Practice Selenium Webdriver Online",
+               "sync_transaction_version": "339",
+               "type": "url",
+               "url": "http://www.techbeamers.com/websites-to-practice-selenium-webdriver-online/"
+            }, {
+               "date_added": "13161902493211760",
+               "id": "11",
+               "meta_info": {
+                  "last_visited_desktop": "13182356580845767"
+               },
+               "name": "Passion Tea Company",
+               "sync_transaction_version": "352",
+               "type": "url",
+               "url": "http://www.practiceselenium.com/welcome.html"
+            }, {
+               "date_added": "13161902528457760",
+               "id": "12",
+               "meta_info": {
+                  "last_visited_desktop": "13182356580840767"
+               },
+               "name": "My Store",
+               "sync_transaction_version": "351",
+               "type": "url",
+               "url": "http://automationpractice.com/index.php"
+            }, {
+               "date_added": "13161902600598452",
+               "id": "13",
+               "meta_info": {
+                  "last_visited_desktop": "13182356580821767"
+               },
+               "name": "Automation Practice - Ultimate QA",
+               "sync_transaction_version": "349",
+               "type": "url",
+               "url": "https://www.ultimateqa.com/automation/"
+            }, {
+               "date_added": "13161902810658522",
+               "id": "15",
+               "meta_info": {
+                  "last_visited_desktop": "13182308662694802"
+               },
+               "name": "Demoqa | Just another WordPress site",
+               "sync_transaction_version": "336",
+               "type": "url",
+               "url": "http://demoqa.com/"
+            }, {
+               "date_added": "13161902855978794",
+               "id": "16",
+               "meta_info": {
+                  "last_visited_desktop": "13182308672738802"
+               },
+               "name": "Automation Testing Practice Page QTP tutorial",
+               "sync_transaction_version": "340",
+               "type": "url",
+               "url": "https://www.qtptutorial.net/automation-practice/"
+            }, {
+               "date_added": "13161903102513796",
+               "id": "17",
+               "meta_info": {
+                  "last_visited_desktop": "13183745799686506"
+               },
+               "name": "The Internet | Dave Haeffner",
+               "sync_transaction_version": "375",
+               "type": "url",
+               "url": "http://the-internet.herokuapp.com/"
+            } ],
+            "date_added": "13161902490418760",
+            "date_modified": "13161905022724581",
+            "id": "10",
+            "name": "Practice",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         }, {
+            "date_added": "13171934915800246",
+            "id": "24",
+            "meta_info": {
+               "last_visited_desktop": "13182895870377982"
+            },
+            "name": "[Jenkins]",
+            "sync_transaction_version": "366",
+            "type": "url",
+            "url": "http://localhost:8080/"
+         } ],
+         "date_added": "13161900450171931",
+         "date_modified": "13171934922248246",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13161900450171931",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "sync_transaction_version": "375",
+      "synced": {
+         "children": [  ],
+         "date_added": "13161900450171931",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

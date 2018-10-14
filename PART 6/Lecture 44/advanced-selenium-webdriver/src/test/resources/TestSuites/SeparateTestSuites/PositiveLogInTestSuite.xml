@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLogInTestSuite" verbose="1">
+	
+	<test name="PositiveLogInTest">
+		<classes>
+			<class name="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests" />
+		</classes>
+	</test>
+	
+</suite>

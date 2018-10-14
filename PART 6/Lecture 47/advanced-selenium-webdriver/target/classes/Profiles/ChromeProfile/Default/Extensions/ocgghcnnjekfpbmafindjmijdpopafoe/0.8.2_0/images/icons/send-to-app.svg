@@ -1,0 +1,18 @@
+<svg width="14" height="14" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Icon - Send To App</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5409 -1600)">
+<g id="Icon - Send To App">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(5413 1606)" fill="#6E6E6E"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(5409 1600)" fill="#6E6E6E"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 3 0L 0 3L 2 3L 2 8C 3.1 8 4 7.1 4 6L 4 3L 6 3L 3 0Z"/>
+<path id="path1_fill" d="M 13 0L 1 0C 0.4 0 0 0.4 0 1L 0 12L 4.5 12L 4.5 10.5L 1.5 10.5L 1.5 3L 12.5 3L 12.5 10.5L 9.5 10.5L 9.5 12L 14 12L 14 1C 14 0.4 13.6 0 13 0Z"/>
+</defs>
+</svg>

@@ -1,0 +1,23 @@
+{
+   "createnew": {
+      "message": "SKAPA NYTT"
+   },
+   "explanationofflinedisabled": {
+      "message": "Du är offline. Om du vill använda Google Dokument utan internetuppkoppling, öppna inställningarna på Google Dokuments startsida och aktivera offlinesynkronisering nästa gång du är ansluten till internet."
+   },
+   "explanationofflineenabled": {
+      "message": "Du är offline, men det går fortfarande att redigera tillgängliga filer eller skapa nya."
+   },
+   "extdesc": {
+      "message": "Få saker gjorda offline med produktfamiljen Google Dokument."
+   },
+   "extname": {
+      "message": "Google Dokument Offline"
+   },
+   "learnmore": {
+      "message": "Läs mer"
+   },
+   "popuphelptext": {
+      "message": "Skriv, redigera och samarbeta överallt, med eller utan internetanslutning."
+   }
+}

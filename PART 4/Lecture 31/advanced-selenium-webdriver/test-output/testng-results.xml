@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-29T15:19:04Z" name="DragAndDropTestSuite" finished-at="2018-09-29T15:19:24Z" duration-ms="20131">
+    <groups>
+    </groups>
+    <test started-at="2018-09-29T15:19:04Z" name="DragAndDropTests-CH" finished-at="2018-09-29T15:19:14Z" duration-ms="10723">
+      <class name="com.herokuapp.theinternet.draganddroptests.DragAndDropTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.draganddroptests.DragAndDropTests@6db9f5a4]" started-at="2018-09-29T15:19:04Z" name="setUp" finished-at="2018-09-29T15:19:12Z" duration-ms="8198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7144655b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dragAToBTest()[pri:0, instance:com.herokuapp.theinternet.draganddroptests.DragAndDropTests@6db9f5a4]" started-at="2018-09-29T15:19:12Z" name="dragAToBTest" finished-at="2018-09-29T15:19:14Z" duration-ms="1692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAToBTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.draganddroptests.DragAndDropTests@6db9f5a4]" started-at="2018-09-29T15:19:14Z" name="tearDown" finished-at="2018-09-29T15:19:14Z" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.draganddroptests.DragAndDropTests -->
+    </test> <!-- DragAndDropTests-CH -->
+    <test started-at="2018-09-29T15:19:14Z" name="DragAndDropTests-FF" finished-at="2018-09-29T15:19:24Z" duration-ms="9364">
+      <class name="com.herokuapp.theinternet.draganddroptests.DragAndDropTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.draganddroptests.DragAndDropTests@2f54a33d]" started-at="2018-09-29T15:19:14Z" name="setUp" finished-at="2018-09-29T15:19:21Z" duration-ms="6968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c82cd4f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dragAToBTest()[pri:0, instance:com.herokuapp.theinternet.draganddroptests.DragAndDropTests@2f54a33d]" started-at="2018-09-29T15:19:21Z" name="dragAToBTest" finished-at="2018-09-29T15:19:22Z" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAToBTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.draganddroptests.DragAndDropTests@2f54a33d]" started-at="2018-09-29T15:19:22Z" name="tearDown" finished-at="2018-09-29T15:19:24Z" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.draganddroptests.DragAndDropTests -->
+    </test> <!-- DragAndDropTests-FF -->
+  </suite> <!-- DragAndDropTestSuite -->
+</testng-results>

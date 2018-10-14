@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="EditorTestSuite" verbose="1">
+
+	<test name="EditorTests">
+		<classes>
+			<class name="com.herokuapp.theinternet.editortests.EditorTests" />
+		</classes>
+	</test>
+
+</suite>

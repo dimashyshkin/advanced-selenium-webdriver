@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-29T15:29:23Z" name="HoversTestSuite" finished-at="2018-09-29T15:29:42Z" duration-ms="19772">
+    <groups>
+    </groups>
+    <test started-at="2018-09-29T15:29:23Z" name="HoversTests-CH" finished-at="2018-09-29T15:29:33Z" duration-ms="10385">
+      <class name="com.herokuapp.theinternet.hoverstests.HoversTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.hoverstests.HoversTests@6db9f5a4]" started-at="2018-09-29T15:29:23Z" name="setUp" finished-at="2018-09-29T15:29:31Z" duration-ms="8092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@26d820eb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="user2ProfileTest()[pri:0, instance:com.herokuapp.theinternet.hoverstests.HoversTests@6db9f5a4]" started-at="2018-09-29T15:29:31Z" name="user2ProfileTest" finished-at="2018-09-29T15:29:32Z" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user2ProfileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.hoverstests.HoversTests@6db9f5a4]" started-at="2018-09-29T15:29:32Z" name="tearDown" finished-at="2018-09-29T15:29:33Z" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.hoverstests.HoversTests -->
+    </test> <!-- HoversTests-CH -->
+    <test started-at="2018-09-29T15:29:33Z" name="HoversTests-FF" finished-at="2018-09-29T15:29:42Z" duration-ms="9345">
+      <class name="com.herokuapp.theinternet.hoverstests.HoversTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.hoverstests.HoversTests@2f54a33d]" started-at="2018-09-29T15:29:33Z" name="setUp" finished-at="2018-09-29T15:29:40Z" duration-ms="6846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@507d20bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="user2ProfileTest()[pri:0, instance:com.herokuapp.theinternet.hoverstests.HoversTests@2f54a33d]" started-at="2018-09-29T15:29:40Z" name="user2ProfileTest" finished-at="2018-09-29T15:29:41Z" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user2ProfileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.hoverstests.HoversTests@2f54a33d]" started-at="2018-09-29T15:29:41Z" name="tearDown" finished-at="2018-09-29T15:29:42Z" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.hoverstests.HoversTests -->
+    </test> <!-- HoversTests-FF -->
+  </suite> <!-- HoversTestSuite -->
+</testng-results>

@@ -1,0 +1,652 @@
+{
+  "appium": {
+    "ruby": {
+      "capabilities": {
+        "capabilities": "caps = Selenium::WebDriver::Remote::Capabilities.{{ capabilities.browser.ruby }}()",
+        "appiumVersion": "caps['appiumVersion'] = '{{ capabilities.backend_version }}'",
+        "video": "caps['recordVideo'] = {{ capabilities.video.ruby }}",
+        "screenshot": "caps['recordScreenshots'] = {{ capabilities.screenshot.ruby }}"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "caps['deviceName'] = '{{ capabilities.device }}'",
+          "deviceType": "caps['deviceType'] = '{{ capabilities.deviceType }}'",
+          "deviceOrientation": "caps['deviceOrientation'] = 'portrait'"
+        },
+        "android": {
+          "capabilities": {},
+          "native": {
+            "capabilities": {
+              "browserName": "caps['browserName'] = ''",
+              "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}'",
+              "platformName": "caps['platformName'] = '{{ capabilities.platformName }}'",
+              "url": "caps['app'] = '{{ capabilities.url }}'"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "browserName": "caps['browserName'] = ''",
+              "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}'",
+              "platformName": "caps['platformName'] = '{{ capabilities.platformName }}'",
+              "url": "caps['app'] = '{{ capabilities.url }}'"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "browserName": "caps['browserName'] = 'Android'",
+              "platform": "caps['platform'] = '{{ capabilities.platform }}'",
+              "version": "caps['version'] = '{{ capabilities.version }}'",
+              "appiumVersion": "{{ clearcaps }}"
+            },
+            ">4.3": {
+              "capabilities": {
+                "browserName": "caps['browserName'] = 'Browser'",
+                "appiumVersion": "caps['appiumVersion'] = '{{ capabilities.backend_version }}'",
+                "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}'",
+                "platformName": "caps['platformName'] = 'Android",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            },
+            ">5.1": {
+              "capabilities": {
+                "browserName": "caps['browserName'] = 'Chrome'",
+                "appiumVersion": "caps['appiumVersion'] = '{{ capabilities.backend_version }}'",
+                "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}'",
+                "platformName": "caps['platformName'] = 'Android'",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            }
+          }
+        },
+        "ios": {
+          "capabilities": {
+            "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}'",
+            "platformName": "caps['platformName'] = '{{ capabilities.platformName }}'"
+          },
+          "native": {
+            "capabilities": {
+              "browserName": "caps['browserName'] = ''",
+              "url": "caps['app'] = '{{ capabilities.url }}'"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "browserName": "caps['browserName'] = ''",
+              "url": "caps['app'] = '{{ capabilities.url }}'"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "browserName": "caps['browserName'] = 'Safari' "
+            }
+          }
+        }
+      }
+    },
+
+    "python": {
+      "capabilities": {
+        "capabilities": "caps = {}",
+        "appiumVersion": "caps['appiumVersion'] = \"{{ capabilities.backend_version }}\"",
+        "video": "caps['recordVideo'] = {{ capabilities.video.python }}",
+        "screenshot": "caps['recordScreenshots'] = {{ capabilities.screenshot.python }}"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "caps['deviceName'] = \"{{ capabilities.device }}\"",
+          "deviceType": "caps['deviceType'] = \"{{ capabilities.deviceType }}\"",
+          "deviceOrientation": "caps['deviceOrientation'] = \"portrait\""
+        },
+        "android": {
+          "capabilities": {},
+          "native": {
+            "capabilities": {
+              "capabilities": "caps = {}",
+              "platformVersion": "caps['platformVersion'] = \"{{ capabilities.version }}\"",
+              "platformName": "caps['platformName'] = \"{{ capabilities.platformName }}\"",
+              "url": "caps['app'] = \"{{ capabilities.url }}\""
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "capabilities": "caps = {}",
+              "platformVersion": "caps['platformVersion'] = \"{{ capabilities.version }}\"",
+              "platformName": "caps['platformName'] = \"{{ capabilities.platformName }}\"",
+              "url": "caps['app'] = \"{{ capabilities.url }}\""
+            }
+          },
+          "web": {
+            "capabilities": {
+              "capabilities": "caps = {}",
+              "platform": "caps['platform'] = \"{{ capabilities.platform }}\"",
+              "version": "caps['version'] = \"{{ capabilities.version }}\"",
+              "appiumVersion": "{{ clearcaps }}"
+            },
+            ">4.3" : {
+              "capabilities": {
+                "browserName": "caps['browserName'] = \"Browser\"",
+                "appiumVersion": "caps['appiumVersion'] = \"{{ capabilities.backend_version }}\"",
+                "platformVersion": "caps['platformVersion'] = \"{{ capabilities.version }}\"",
+                "platformName": "caps['platformName'] = \"Android\"",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            },
+            ">5.1": {
+              "capabilities": {
+                "browserName": "caps['browserName'] = \"Chrome\"",
+                "appiumVersion": "caps['appiumVersion'] = \"{{ capabilities.backend_version }}\"",
+                "platformVersion": "caps['platformVersion'] = \"{{ capabilities.version }}\"",
+                "platformName": "caps['platformName'] = \"Android\"",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            }
+          }
+        },
+        "ios": {
+          "capabilities": {
+            "platformVersion": "caps['platformVersion'] = \"{{ capabilities.version }}\"",
+            "platformName": "caps['platformName'] = \"{{ capabilities.platformName }}\""
+          },
+          "native": {
+            "capabilities": {
+              "capabilities": "caps['browserName'] = \"\"",
+              "url": "caps['app'] = \"{{ capabilities.url }}\""
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "capabilities": "caps['browserName'] = \"\"",
+              "url": "caps['app'] = \"{{ capabilities.url }}\""
+            }
+          },
+          "web": {
+            "capabilities": {
+              "capabilities": "caps['browserName'] = \"Safari\""
+            }
+          }
+        }
+      }
+    },
+
+    "node-js": {
+      "capabilities": {
+        "capabilities": "caps = {};",
+        "appiumVersion": "caps['appiumVersion'] = '{{ capabilities.backend_version }}';",
+        "video": "caps['recordVideo'] = {{ capabilities.video.javascript }};",
+        "screenshot": "caps['recordScreenshots'] = {{ capabilities.screenshot.javascript }};"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "caps['deviceName'] = '{{ capabilities.device }}';",
+          "deviceType": "caps['deviceType'] = '{{ capabilities.deviceType }}';",
+          "deviceOrientation": "caps['deviceOrientation'] = 'portrait';"
+        },
+        "android": {
+          "capabilities": {},
+          "native": {
+            "capabilities": {
+              "capabilities": "caps = {};",
+              "browserName": "caps['browserName'] = '';",
+              "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}';",
+              "platformName": "caps['platformName'] = '{{ capabilities.platformName }}';",
+              "url": "caps['app'] = '{{ capabilities.url }}';"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "capabilities": "caps = {};",
+              "browserName": "caps['browserName'] = '';",
+              "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}';",
+              "platformName": "caps['platformName'] = '{{ capabilities.platformName }}';",
+              "url": "caps['app'] = '{{ capabilities.url }}';"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "capabilities": "caps = {};",
+              "platform": "caps['platform'] = '{{ capabilities.platform }}';",
+              "version": "caps['version'] = '{{ capabilities.version }}';",
+              "appiumVersion": "{{ clearcaps }};"
+            },
+            ">4.3": {
+              "capabilities": {
+                "browserName": "caps['browserName'] = 'Browser';",
+                "appiumVersion": "caps['appiumVersion'] = '{{ capabilities.backend_version }}';",
+                "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}';",
+                "platformName": "caps['platformName'] = 'Android';",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            },
+            ">5.1": {
+              "capabilities": {
+                "browserName": "caps['browserName'] = 'Chrome';",
+                "appiumVersion": "caps['appiumVersion'] = '{{ capabilities.backend_version }}';",
+                "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}';",
+                "platformName": "caps['platformName'] = 'Android';",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            }
+          }
+        },
+        "ios": {
+          "capabilities": {
+            "platformVersion": "caps['platformVersion'] = '{{ capabilities.version }}';",
+            "platformName": "caps['platformName'] = '{{ capabilities.platformName }}';"
+          },
+          "native": {
+            "capabilities": {
+              "capabilities": "caps['browserName'] = '';",
+              "url": "caps['app'] = '{{ capabilities.url }}';"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "capabilities": "caps['browserName'] = '';",
+              "url": "caps['app'] = '{{ capabilities.url }}';"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "capabilities": "caps['browserName'] = 'Safari';"
+            }
+          }
+        }
+      }
+    },
+
+    "java": {
+      "capabilities": {
+        "capabilities": "DesiredCapabilities caps = DesiredCapabilities.{{ capabilities.browser.java }}();",
+        "appiumVersion": "caps.setCapability(\"appiumVersion\", \"{{ capabilities.backend_version }}\");",
+        "video": "caps.setCapability(\"recordVideo\", \"{{ capabilities.video.java }}\");",
+        "screenshot": "caps.setCapability(\"recordScreenshots\", \"{{ capabilities.screenshot.java }}\");"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "caps.setCapability(\"deviceName\",\"{{ capabilities.device }}\");",
+          "deviceType": "caps.setCapability(\"deviceType\",\"{{ capabilities.deviceType }}\");",
+          "deviceOrientation": "caps.setCapability(\"deviceOrientation\", \"portrait\");"
+        },
+        "android": {
+          "capabilities": {},
+          "native": {
+            "capabilities": {
+              "browserName": "caps.setCapability(\"browserName\", \"\");",
+              "platformVersion": "caps.setCapability(\"platformVersion\",\"{{ capabilities.version }}\");",
+              "platformName": "caps.setCapability(\"platformName\",\"{{ capabilities.platformName }}\");",
+              "url": "caps.setCapability(\"app\",\"{{ capabilities.url }}\");"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "browserName": "caps.setCapability(\"browserName\", \"\");",
+              "platformVersion": "caps.setCapability(\"platformVersion\",\"{{ capabilities.version }}\");",
+              "platformName": "caps.setCapability(\"platformName\",\"{{ capabilities.platformName }}\");",
+              "url": "caps.setCapability(\"app\",\"{{ capabilities.url }}\");"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "browserName": "caps.setCapability(\"browserName\", \"Android\");",
+              "platform": "caps.setCapability(\"platform\", \"{{ capabilities.platform }}\");",
+              "version": "caps.setCapability(\"version\", \"{{ capabilities.version }}\");",
+              "appiumVersion": "{{ clearcaps }}"
+            },
+            ">4.3": {
+              "capabilities": {
+                "browserName": "caps.setCapability(\"browserName\", \"Browser\");",
+                "appiumVersion": "caps.setCapability(\"appiumVersion\", \"{{ capabilities.backend_version }}\");",
+                "platformVersion": "caps.setCapability(\"platformVersion\", \"{{ capabilities.version }}\");",
+                "platformName": "caps.setCapability(\"platformName\",\"Android\");",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            },
+            ">5.1": {
+              "capabilities": {
+                "browserName": "caps.setCapability(\"browserName\", \"Chrome\");",
+                "appiumVersion": "caps.setCapability(\"appiumVersion\", \"{{ capabilities.backend_version }}\");",
+                "platformVersion": "caps.setCapability(\"platformVersion\", \"{{ capabilities.version }}\");",
+                "platformName": "caps.setCapability(\"platformName\",\"Android\");",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            }
+          }
+        },
+        "ios": {
+          "capabilities": {
+            "platformVersion": "caps.setCapability(\"platformVersion\",\"{{ capabilities.version }}\");",
+            "platformName": "caps.setCapability(\"platformName\", \"{{ capabilities.platformName }}\");"
+          },
+          "native": {
+            "capabilities": {
+              "browserName": "caps.setCapability(\"browserName\", \"\");",
+              "url": "caps.setCapability(\"app\",\"{{ capabilities.url }}\");"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "browserName": "caps.setCapability(\"browserName\", \"\");",
+              "url": "caps.setCapability(\"app\",\"{{ capabilities.url }}\");"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "browserName": "caps.setCapability(\"browserName\", \"Safari\");"
+            }
+          }
+        }
+      }
+    },
+
+    "php": {
+      "capabilities": {
+        "capabilities": "$web_driver = new WebDriver();",
+        "session": "$desiredCapabilities = new stdClass();\n$session = $web_driver->session('{{ capabilities.browser.php }}', $desiredCapabilities);",
+        "appiumVersion": "$desiredCapabilities->appiumVersion = '{{ capabilities.backend_version }}';",
+        "video": "$desiredCapabilities->recordVideo = {{ capabilities.video.php }};",
+        "screenshot": "$desiredCapabilities->recordScreenshots = {{ capabilities.screenshot.php }};"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "$desiredCapabilities->deviceName = '{{ capabilities.device }}';",
+          "deviceType": "$desiredCapabilities->deviceType = '{{ capabilities.deviceType }}';",
+          "deviceOrientation": "$desiredCapabilities->deviceOrientation = 'portrait';"
+        },
+        "android": {
+          "capabilities": {},
+          "native": {
+            "capabilities": {
+              "browserName": "$desiredCapabilities->browserName = '';",
+              "platformVersion": "$desiredCapabilities->platformVersion = '{{ capabilities.version }}';",
+              "platformName": "$desiredCapabilities->platformName = '{{ capabilities.platformName }}';",
+              "platform": "{{ clearcaps }}",
+              "version": "{{ clearcaps }}",
+              "url": "$desiredCapabilities->app = '{{ capabilities.url }}';"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "browserName": "$desiredCapabilities->browserName = '';",
+              "platformVersion": "$desiredCapabilities->platformVersion = '{{ capabilities.version }}';",
+              "platformName": "$desiredCapabilities->platformName = '{{ capabilities.platformName }}';",
+              "platform": "{{ clearcaps }}",
+              "version": "{{ clearcaps }}",
+              "url": "$desiredCapabilities->app = '{{ capabilities.url }}';"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "browserName": "$desiredCapabilities->browserName = 'Android';",
+              "platform": "$desiredCapabilities->platform = '{{ capabilities.platform }}';",
+              "version": "$desiredCapabilities->version = '{{ capabilities.version }}';",
+              "appiumVersion": "{{ clearcaps }}"
+            },
+            ">4.3": {
+              "capabilities": {
+                "browserName": "$desiredCapabilities->browserName = 'Browser';",
+                "appiumVersion": "$desiredCapabilities->appiumVersion = '{{ capabilities.backend_version }}';",
+                "platformVersion": "$desiredCapabilities->platformVersion = '{{ capabilities.version }}';",
+                "platformName": "$desiredCapabilities->platformName = 'Android';",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            },
+            ">5.1": {
+              "capabilities": {
+                "browserName": "$desiredCapabilities->browserName = 'Chrome';",
+                "appiumVersion": "$desiredCapabilities->appiumVersion = '{{ capabilities.backend_version }}';",
+                "platformVersion": "$desiredCapabilities->platformVersion = '{{ capabilities.version }}';",
+                "platformName": "$desiredCapabilities->platformName = 'Android';",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            }
+          }
+        },
+        "ios": {
+          "capabilities": {
+            "platformVersion": "$desiredCapabilities->platformVersion = '{{ capabilities.version }}';",
+            "platformName": "$desiredCapabilities->platformName = '{{ capabilities.platformName }}';"
+          },
+          "native": {
+            "capabilities": {
+              "browserName": "$desiredCapabilities->browserName = '';",
+              "url": "$desiredCapabilities->app = '{{ capabilities.url }}';"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "browserName": "$desiredCapabilities->browserName = '';",
+              "url": "$desiredCapabilities->app = '{{ capabilities.url }}';"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "browserName": "$desiredCapabilities->browserName = 'Safari';"
+            }
+          }
+        }
+      }
+    },
+
+    "csharp": {
+      "capabilities": {
+        "capabilities": "DesiredCapabilities caps = new DesiredCapabilities();",
+        "appiumVersion": "caps.SetCapability(\"appiumVersion\", \"{{ capabilities.backend_version }}\");",
+        "video": "caps.SetCapability(\"recordVideo\", {{ capabilities.video.csharp }});",
+        "screenshot": "caps.SetCapability(\"recordScreenshots\", {{ capabilities.screenshot.csharp }});"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "caps.SetCapability(\"deviceName\", \"{{ capabilities.device }}\");",
+          "deviceType": "caps.SetCapability(\"deviceType\", \"{{ capabilities.deviceType }}\");",
+          "deviceOrientation": "caps.SetCapability(\"deviceOrientation\", \"portrait\");"
+        },
+        "android": {
+          "capabilities": {},
+          "native": {
+            "capabilities": {
+              "browserName": "caps.SetCapability(\"browserName\", \"\");",
+              "platformVersion": "caps.SetCapability(\"platformVersion\", \"{{ capabilities.version }}\");",
+              "platformName": "caps.SetCapability(\"platformName\", \"{{ capabilities.platformName }}\");",
+              "platform": "{{ clearcaps }}",
+              "version": "{{ clearcaps }}",
+              "url": "caps.SetCapability(\"app\",\"{{ capabilities.url }}\");"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "browserName": "caps.SetCapability(\"browserName\", \"\");",
+              "platformVersion": "caps.SetCapability(\"platformVersion\", \"{{ capabilities.version }}\");",
+              "platformName": "caps.SetCapability(\"platformName\", \"{{ capabilities.platformName }}\");",
+              "platform": "{{ clearcaps }}",
+              "version": "{{ clearcaps }}",
+              "url": "caps.SetCapability(\"app\",\"{{ capabilities.url }}\");"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "browserName": "caps.SetCapability(\"browserName\", \"Android\");",
+              "platform": "caps.SetCapability(\"platform\", \"{{ capabilities.platform }}\");",
+              "version": "caps.SetCapability(\"version\", \"{{ capabilities.version }}\");",
+              "appiumVersion": "{{ clearcaps }}"
+            },
+            ">4.3": {
+              "capabilities": {
+                "browserName": "caps.SetCapability(\"browserName\", \"Browser\");",
+                "appiumVersion": "caps.SetCapability(\"appiumVersion\", \"{{ capabilities.backend_version }}\");",
+                "platformVersion": "caps.SetCapability(\"platformVersion\", \"{{ capabilities.version }}\");",
+                "platformName": "caps.SetCapability(\"platformName\", \"Android\");",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            },
+            ">5.1": {
+              "capabilities": {
+                "browserName": "caps.SetCapability(\"browserName\", \"Chrome\");",
+                "appiumVersion": "caps.SetCapability(\"appiumVersion\", \"{{ capabilities.backend_version }}\");",
+                "platformVersion": "caps.SetCapability(\"platformVersion\", \"{{ capabilities.version }}\");",
+                "platformName": "caps.SetCapability(\"platformName\", \"Android\");",
+                "platform": "{{ clearcaps }}",
+                "version": "{{ clearcaps }}"
+              }
+            }
+          }
+        },
+        "ios": {
+          "capabilities": {
+            "capabilities": "DesiredCapabilities caps = new DesiredCapabilities();",
+            "platformVersion": "caps.SetCapability(\"platformVersion\", \"{{ capabilities.version }}\");",
+            "platformName": "caps.SetCapability(\"platformName\", \"{{ capabilities.platformName }}\");"
+          },
+          "native": {
+            "capabilities": {
+              "browserName": "caps.SetCapability(\"browserName\", \"\");",
+              "url": "caps.SetCapability(\"app\",\"{{ capabilities.url }}\");"
+            }
+          },
+          "hybrid": {
+            "capabilities": {
+              "browserName": "caps.SetCapability(\"browserName\", \"\");",
+              "url": "caps.SetCapability(\"app\",\"{{ capabilities.url }}\");"
+            }
+          },
+          "web": {
+            "capabilities": {
+              "browserName": "caps.SetCapability(\"browserName\", \"Safari\");"
+            }
+          }
+        }
+      }
+    }
+  },
+  "selenium": {
+    "ruby": {
+      "capabilities": {
+        "capabilities": "caps = Selenium::WebDriver::Remote::Capabilities.{{ capabilities.browser.ruby }}()",
+        "platform": "caps['platform'] = '{{ capabilities.platformName }}'",
+        "version": "caps['version'] = '{{ capabilities.version }}'",
+        "video": "caps['recordVideo'] = {{ capabilities.video.ruby }}",
+        "screenshot": "caps['recordScreenshots'] = {{ capabilities.screenshot.ruby }}",
+        "resolution": "caps['screenResolution'] = '{{ capabilities.resolution }}'"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "caps['deviceName'] = '{{ capabilities.device }}'",
+          "deviceType": "caps['deviceType'] = '{{ capabilities.deviceType }}'",
+          "deviceOrientation": "caps['deviceOrientation'] = 'portrait'",
+          "platform": "caps['platform'] = '{{ capabilities.platform }}'"
+        }
+      }
+    },
+
+    "python": {
+      "capabilities": {
+        "capabilities": "caps = {}",
+        "browser": "caps['browserName'] = \"{{ capabilities.browser.python }}\"",
+        "platform": "caps['platform'] = \"{{ capabilities.platformName }}\"",
+        "version": "caps['version'] = \"{{ capabilities.version }}\"",
+        "video": "caps['recordVideo'] = {{ capabilities.video.python }}",
+        "screenshot": "caps['recordScreenshots'] = {{ capabilities.screenshot.python }}",
+        "resolution": "caps['screenResolution'] = \"{{ capabilities.resolution }}\""
+      },
+      "mobile": {
+        "capabilities": {
+          "browserName": "caps['deviceName'] = \"{{ capabilities.browser.javascript }}\"",
+          "deviceName": "caps['deviceName'] = \"{{ capabilities.device }}\"",
+          "deviceType": "caps['deviceType'] = \"{{ capabilities.deviceType }}\"",
+          "deviceOrientation": "caps['deviceOrientation'] = \"portrait\"",
+          "platform": "caps['platform'] = \"{{ capabilities.platform }}\""
+        }
+      }
+    },
+
+    "node-js": {
+      "capabilities": {
+        "capabilities": "caps = {};",
+        "browser": "caps['browserName'] = '{{ capabilities.browser.javascript }}';",
+        "platform": "caps['platform'] = '{{ capabilities.platformName }}';",
+        "version": "caps['version'] = '{{ capabilities.version }}';",
+        "video": "caps['recordVideo'] = {{ capabilities.video.javascript }};",
+        "screenshot": "caps['recordScreenshots'] = {{ capabilities.screenshot.javascript }};",
+        "resolution": "caps['screenResolution'] = '{{ capabilities.resolution }}';"
+      },
+      "mobile": {
+        "capabilities": {
+          "browserName": "caps['platform'] = '{{ capabilities.browser.javascript }}';",
+          "deviceName": "caps['deviceName'] = '{{ capabilities.device }}';",
+          "deviceType": "caps['deviceType'] = '{{ capabilities.deviceType }}';",
+          "deviceOrientation": "caps['deviceOrientation'] = 'portrait';",
+          "platform": "caps['platform'] = '{{ capabilities.platform }}';"
+        }
+      }
+    },
+
+    "java": {
+      "capabilities": {
+        "capabilities": "DesiredCapabilities caps = DesiredCapabilities.{{ capabilities.browser.java }}();",
+        "platform": "caps.setCapability(\"platform\", \"{{ capabilities.platformName }}\");",
+        "version": "caps.setCapability(\"version\", \"{{ capabilities.version }}\");",
+        "video": "caps.setCapability(\"recordVideo\", \"{{ capabilities.video.java }}\");",
+        "screenshot": "caps.setCapability(\"recordScreenshots\", \"{{ capabilities.screenshot.java }}\");",
+        "resolution": "caps.setCapability(\"screenResolution\", \"{{ capabilities.resolution }}\");"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "caps.setCapability(\"deviceName\",\"{{ capabilities.device }}\");",
+          "deviceType": "caps.setCapability(\"deviceType\",\"{{ capabilities.deviceType }}\");",
+          "deviceOrientation": "caps.setCapability(\"deviceOrientation\", \"portrait\");",
+          "platform": "caps.setCapability(\"platform\", \"{{ capabilities.platform }}\");"
+        }
+      }
+    },
+
+    "php": {
+      "capabilities": {
+        "capabilities": "$web_driver = new WebDriver();",
+        "session": "$desiredCapabilities = new stdClass();\n$session = $web_driver->session('{{ capabilities.browser.php }}', $desiredCapabilities);",
+        "platform": "$desiredCapabilities->platform = '{{ capabilities.platformName }}';",
+        "version": "$desiredCapabilities->version = '{{ capabilities.version }}';",
+        "video": "$desiredCapabilities->recordVideo = {{ capabilities.video.php }};",
+        "screenshot": "$desiredCapabilities->recordScreenshots = {{ capabilities.screenshot.php }};",
+        "resolution": "$desiredCapabilities->screenResolution = '{{ capabilities.resolution }}';"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "$desiredCapabilities->deviceName = '{{ capabilities.device }}';",
+          "deviceType": "$desiredCapabilities->deviceType = '{{ capabilities.deviceType }}';",
+          "deviceOrientation": "$desiredCapabilities->deviceOrientation = 'portrait';",
+          "platform": "$desiredCapabilities->platform = '{{ capabilities.platform }}';"
+        }
+      }
+    },
+
+    "csharp": {
+      "capabilities": {
+        "capabilities": "DesiredCapabilities caps = new DesiredCapabilities();",
+        "session": "caps.SetCapability(\"browserName\", \"{{ capabilities.browser.csharp }}\");",
+        "platform": "caps.SetCapability(\"platform\", \"{{ capabilities.platformName }}\");",
+        "version": "caps.SetCapability(\"version\", \"{{ capabilities.version }}\");",
+        "video": "caps.SetCapability(\"recordVideo\", {{ capabilities.video.csharp }});",
+        "screenshot": "caps.SetCapability(\"recordScreenshots\", {{ capabilities.screenshot.csharp }});",
+        "resolution": "caps.SetCapability(\"screenResolution\", \"{{ capabilities.resolution }}\");"
+      },
+      "mobile": {
+        "capabilities": {
+          "deviceName": "caps.SetCapability(\"deviceName\", \"{{ capabilities.device }}\");",
+          "deviceType": "caps.SetCapability(\"deviceType\", \"{{ capabilities.deviceType }}\");",
+          "deviceOrientation": "caps.SetCapability(\"deviceOrientation\", \"portrait\");",
+          "platform": "caps.SetCapability(\"platform\", \"{{ capabilities.platform }}\");"
+        }
+      }
+    }
+  }
+}

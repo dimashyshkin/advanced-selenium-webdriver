@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-29T14:34:40Z" name="KeyPressesTestSuite" finished-at="2018-09-29T14:35:00Z" duration-ms="19623">
+    <groups>
+    </groups>
+    <test started-at="2018-09-29T14:34:40Z" name="KeyPressesTests-CH" finished-at="2018-09-29T14:34:51Z" duration-ms="10186">
+      <class name="com.herokuapp.theinternet.keypressestests.KeyPressesTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.keypressestests.KeyPressesTests@68267da0]" started-at="2018-09-29T14:34:40Z" name="setUp" finished-at="2018-09-29T14:34:49Z" duration-ms="8147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cdf39b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pressKeyWithActionsTest()[pri:0, instance:com.herokuapp.theinternet.keypressestests.KeyPressesTests@68267da0]" started-at="2018-09-29T14:34:49Z" name="pressKeyWithActionsTest" finished-at="2018-09-29T14:34:50Z" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressKeyWithActionsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.keypressestests.KeyPressesTests@68267da0]" started-at="2018-09-29T14:34:50Z" name="tearDown" finished-at="2018-09-29T14:34:51Z" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.keypressestests.KeyPressesTests -->
+    </test> <!-- KeyPressesTests-CH -->
+    <test started-at="2018-09-29T14:34:51Z" name="KeyPressesTests-FF" finished-at="2018-09-29T14:35:00Z" duration-ms="9397">
+      <class name="com.herokuapp.theinternet.keypressestests.KeyPressesTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.keypressestests.KeyPressesTests@45ca843]" started-at="2018-09-29T14:34:51Z" name="setUp" finished-at="2018-09-29T14:34:58Z" duration-ms="7318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@14f3c6fc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pressKeyWithActionsTest()[pri:0, instance:com.herokuapp.theinternet.keypressestests.KeyPressesTests@45ca843]" started-at="2018-09-29T14:34:58Z" name="pressKeyWithActionsTest" finished-at="2018-09-29T14:34:59Z" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressKeyWithActionsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.keypressestests.KeyPressesTests@45ca843]" started-at="2018-09-29T14:34:59Z" name="tearDown" finished-at="2018-09-29T14:35:00Z" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.keypressestests.KeyPressesTests -->
+    </test> <!-- KeyPressesTests-FF -->
+  </suite> <!-- KeyPressesTestSuite -->
+</testng-results>

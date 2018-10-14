@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-29T15:06:49Z" name="EditorTestSuite" finished-at="2018-09-29T15:07:10Z" duration-ms="21446">
+    <groups>
+    </groups>
+    <test started-at="2018-09-29T15:06:49Z" name="EditorTests" finished-at="2018-09-29T15:07:10Z" duration-ms="21446">
+      <class name="com.herokuapp.theinternet.editortests.EditorTests">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.editortests.EditorTests@424e1977]" started-at="2018-09-29T15:06:49Z" name="setUp" finished-at="2018-09-29T15:06:57Z" duration-ms="8140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e9da981]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="defaultEditorValueTest()[pri:0, instance:com.herokuapp.theinternet.editortests.EditorTests@424e1977]" started-at="2018-09-29T15:06:57Z" name="defaultEditorValueTest" finished-at="2018-09-29T15:07:09Z" duration-ms="12519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultEditorValueTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.editortests.EditorTests@424e1977]" started-at="2018-09-29T15:07:09Z" name="tearDown" finished-at="2018-09-29T15:07:10Z" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.editortests.EditorTests -->
+    </test> <!-- EditorTests -->
+  </suite> <!-- EditorTestSuite -->
+</testng-results>

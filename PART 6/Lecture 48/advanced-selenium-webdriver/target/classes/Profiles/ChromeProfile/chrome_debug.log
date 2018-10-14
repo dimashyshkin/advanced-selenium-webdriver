@@ -1,0 +1,3 @@
+[9424:392:1013/120009.542:INFO:CONSOLE(8)] "SW registered", source: https://www.google.com/_/chrome/newtab?ie=UTF-8 (8)
+[9424:392:1013/120040.053:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: http://the-internet.herokuapp.com/login (0)
+[9424:392:1013/120040.107:INFO:CONSOLE(0)] "This page includes a password or credit card input in a non-secure context. A warning has been added to the URL bar. For more information, see https://goo.gl/zmWq3m.", source: http://the-internet.herokuapp.com/login (0)

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-29T13:28:51Z" name="DropdownTestSuite" finished-at="2018-09-29T13:29:02Z" duration-ms="10983">
+    <groups>
+    </groups>
+    <test started-at="2018-09-29T13:28:51Z" name="DropdownTests" finished-at="2018-09-29T13:29:02Z" duration-ms="10983">
+      <class name="com.herokuapp.theinternet.dropdowntests.DropdownTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.herokuapp.theinternet.dropdowntests.DropdownTest@424e1977]" started-at="2018-09-29T13:28:51Z" name="setUp" finished-at="2018-09-29T13:29:00Z" duration-ms="8189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a8ba37c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="optionTwoTest()[pri:0, instance:com.herokuapp.theinternet.dropdowntests.DropdownTest@424e1977]" started-at="2018-09-29T13:29:00Z" name="optionTwoTest" finished-at="2018-09-29T13:29:02Z" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionTwoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.theinternet.dropdowntests.DropdownTest@424e1977]" started-at="2018-09-29T13:29:02Z" name="tearDown" finished-at="2018-09-29T13:29:02Z" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.dropdowntests.DropdownTest -->
+    </test> <!-- DropdownTests -->
+  </suite> <!-- DropdownTestSuite -->
+</testng-results>

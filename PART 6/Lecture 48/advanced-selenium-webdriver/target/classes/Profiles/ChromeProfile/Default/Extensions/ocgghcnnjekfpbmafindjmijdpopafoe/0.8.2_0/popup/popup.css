@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600");
+html,
+body {
+  height: 200px; }
+
+.popup {
+  border-radius: 2px;
+  display: block;
+  fill: solid;
+  margin: 0;
+  padding: 0; }
+  .popup__header, .popup__content, .popup__footer {
+    padding: 10px; }
+  .popup__header {
+    padding-top: 15px; }
+  .popup__content-description {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 0; }
+  .popup__content-gif img {
+    border: solid 1px #ccc;
+    height: 168px;
+    width: 300px; }
+  .popup__link {
+    color: #2e86ab;
+    cursor: pointer; }
+    .popup__link:active, .popup__link:hover, .popup__link:link, .popup__link:visited {
+      color: #2e86ab; }
+  .popup__help-text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center; }
+  .popup__content {
+    padding-bottom: 0; }
+  .popup__footer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    text-align: center; }
