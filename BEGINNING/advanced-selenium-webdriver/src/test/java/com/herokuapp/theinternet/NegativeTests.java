@@ -24,18 +24,15 @@ public class NegativeTests {
 
 		switch (browser) {
 		case "chrome":
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 
 		case "firefox":
-			System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 
 		default:
 			System.out.println("Do not know how to start: " + browser + ", starting chrome.");
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 		}
